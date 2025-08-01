@@ -3,7 +3,7 @@ function Header({ darkMode, setDarkMode }) {
   return (
     <header className="py-8 flex flex-col items-center">
       <h1 className="text-5xl font-extrabold text-blue-400 drop-shadow-lg text-center mb-4 dark:text-yellow-300">
-        Weather App
+        GoWeather
       </h1>
       <button
         onClick={() => setDarkMode((prev) => !prev)}
